@@ -20,8 +20,8 @@ export function Header() {
       <div className="container mx-auto px-16 h-full flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img
-            src="/Neulink-logo.jpg"
-            alt="Neulink Logo"
+            src="/AIAG logo.svg"
+            alt="Advance Ingredients AG Logo"
             className="h-14 w-auto"
           />
         </Link>

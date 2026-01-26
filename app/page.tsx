@@ -132,25 +132,37 @@ export default function HomePage() {
           <h2 className="text-4xl font-bold text-gray-900 mb-12">Product Categories</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="border border-gray-200 rounded-xl p-10 hover:shadow-md transition-shadow">
-              <div className="w-14 h-14 rounded-full bg-brand-green mb-6"></div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-lg bg-brand-green flex items-center justify-center">
+                  <span className="text-2xl font-bold text-white">F</span>
+                </div>
+                <p className="text-sm font-bold text-brand-green">FOONEXUS</p>
+              </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Organic Ingredients</h3>
-              <p className="text-sm font-bold text-brand-green mb-2">FOONEXUS</p>
               <p className="text-gray-600 leading-relaxed">
                 Organic Lactose · Organic D90 · Organic WPC · Organic GOS
               </p>
             </div>
             <div className="border border-gray-200 rounded-xl p-10 hover:shadow-md transition-shadow">
-              <div className="w-14 h-14 rounded-full bg-brand-blue mb-6"></div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-lg bg-brand-blue flex items-center justify-center">
+                  <span className="text-2xl font-bold text-white">L</span>
+                </div>
+                <p className="text-sm font-bold text-brand-blue">LVEO</p>
+              </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Whey Proteins</h3>
-              <p className="text-sm font-bold text-brand-blue mb-2">LVEO</p>
               <p className="text-gray-600 leading-relaxed">
                 WPC80 · WPI · Hydrolyzed WPC80
               </p>
             </div>
             <div className="border border-gray-200 rounded-xl p-10 hover:shadow-md transition-shadow">
-              <div className="w-14 h-14 rounded-full bg-brand-red mb-6"></div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-lg bg-brand-red flex items-center justify-center">
+                  <span className="text-2xl font-bold text-white">N</span>
+                </div>
+                <p className="text-sm font-bold text-brand-red">NEULINK</p>
+              </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Custom Solutions</h3>
-              <p className="text-sm font-bold text-brand-red mb-2">NEULINK</p>
               <p className="text-gray-600 leading-relaxed">
                 Tailored solutions based on specific customer requirements and applications
               </p>
