@@ -16,13 +16,13 @@ export function Header() {
   const pathname = usePathname()
 
   return (
-    <header className="border-b border-gray-200 bg-white h-24">
+    <header className="border-b border-gray-200 bg-white h-80">
       <div className="container mx-auto px-16 h-full flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img
             src="/AIAG logo.svg"
             alt="Advance Ingredients AG Logo"
-            className="h-14 w-auto"
+            className="h-56 w-auto"
           />
         </Link>
 
