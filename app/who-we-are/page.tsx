@@ -5,53 +5,73 @@ export default function WhoWeArePage() {
   return (
     <>
       <Header />
+
+      {/* Hero Section */}
+      <section
+        className="relative min-h-[60vh] flex items-center justify-center bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/AboutUs.png')" }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/40"></div>
+        <div className="relative z-10 container mx-auto max-w-4xl px-6 py-32 text-white text-center">
+          <span className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/30 rounded text-sm font-semibold tracking-wider uppercase mb-6">
+            About Us
+          </span>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            About Us
+          </h1>
+          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+            Swiss Quality · Integrity & Transparency · Professional Excellence
+          </p>
+        </div>
+      </section>
+
       <section className="py-32 px-16">
         <div className="container mx-auto max-w-4xl">
-          <h1 className="text-6xl font-bold text-gray-900 mb-8">Who We Are</h1>
-          <p className="text-xl text-gray-600 mb-16">
+          <h1 className="text-6xl font-bold text-text-primary mb-8">Who We Are</h1>
+          <p className="text-xl text-text-secondary mb-16">
             A Swiss company committed to integrity, transparency, and excellence in dairy ingredients
           </p>
           <div className="space-y-16">
             <section>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              <h2 className="text-3xl font-bold text-text-primary mb-6">Our Story</h2>
+              <p className="text-lg text-text-primary leading-relaxed mb-4">
                 Advance Ingredients AG is a Swiss company headquartered in Schaffhausen, founded in 2019.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              <p className="text-lg text-text-primary leading-relaxed mb-4">
                 We specialize in dairy ingredient solutions, serving the infant formula, medical nutrition, and sports nutrition industries across China and Southeast Asia.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-text-primary leading-relaxed">
                 Our mission is to bridge the gap between premium dairy ingredient producers and the dynamic Asian market. Through our brands NEULINK, FOONEXUS, and LVEO, we deliver organic ingredients, whey proteins, and customized solutions.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-text-primary leading-relaxed">
                 We believe that trust is not a slogan—it's the result of consistent delivery over time. Our approach is built on reducing information asymmetry and creating transparent, efficient partnerships.
               </p>
             </section>
 
             <section>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Culture: Integrity & Transparency</h2>
-              <p className="text-xl text-gray-600 mb-8">
+              <h2 className="text-3xl font-bold text-text-primary mb-8">Our Culture: Integrity & Transparency</h2>
+              <p className="text-xl text-text-secondary mb-8">
                 We believe trust is not a slogan but the result of consistent delivery over time.
               </p>
               <div className="grid md:grid-cols-3 gap-8">
                 <div>
-                  <div className="w-20 h-20 rounded-full bg-brand-red mb-4"></div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Speak the Truth</h3>
-                  <p className="text-gray-600">
+                  <div className="w-20 h-20 rounded-full bg-primary mb-4"></div>
+                  <h3 className="text-xl font-bold text-text-primary mb-3">Speak the Truth</h3>
+                  <p className="text-text-secondary">
                     No exaggeration or ambiguity regarding origins, specifications, lead times, or limitations. We provide clear, verifiable information.
                   </p>
                 </div>
                 <div>
                   <div className="w-20 h-20 rounded-full bg-brand-peach mb-4"></div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Share What Matters</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-xl font-bold text-text-primary mb-3">Share What Matters</h3>
+                  <p className="text-text-secondary">
                     We proactively reduce information asymmetry, ensuring customers have the necessary information to make informed decisions.
                   </p>
                 </div>
                 <div>
-                  <div className="w-20 h-20 rounded-full bg-brand-red mb-4"></div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Deliver Consistently</h3>
-                  <p className="text-gray-600">
+                  <div className="w-20 h-20 rounded-full bg-primary mb-4"></div>
+                  <h3 className="text-xl font-bold text-text-primary mb-3">Deliver Consistently</h3>
+                  <p className="text-text-secondary">
                     Enabled by international R&D expert collaboration, supply chain management, and quality control.
                   </p>
                 </div>
@@ -59,26 +79,26 @@ export default function WhoWeArePage() {
             </section>
 
             <section>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">How We Work</h2>
-              <p className="text-xl text-brand-red font-semibold mb-8">
+              <h2 className="text-3xl font-bold text-text-primary mb-8">How We Work</h2>
+              <p className="text-xl text-primary font-semibold mb-8">
                 Need-oriented. Professional support. Delivery-focused.
               </p>
               <div className="grid md:grid-cols-3 gap-8">
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Need-Oriented</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-xl font-bold text-text-primary mb-3">Need-Oriented</h3>
+                  <p className="text-text-secondary">
                     We listen first. Every solution begins with understanding your specific requirements.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Professional Support</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-xl font-bold text-text-primary mb-3">Professional Support</h3>
+                  <p className="text-text-secondary">
                     Our international R&D network provides technical expertise and application support.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Delivery-Focused</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-xl font-bold text-text-primary mb-3">Delivery-Focused</h3>
+                  <p className="text-text-secondary">
                     On time, in spec, every time. Our supply chain management and quality control ensure reliability.
                   </p>
                 </div>
@@ -90,7 +110,7 @@ export default function WhoWeArePage() {
               <div className="grid md:grid-cols-3 gap-8">
                 <div>
                   <p className="text-sm text-gray-400 mb-2">Founded</p>
-                  <p className="text-5xl font-bold text-brand-red">2019</p>
+                  <p className="text-5xl font-bold text-primary">2019</p>
                 </div>
                 <div>
                   <p className="text-sm text-gray-400 mb-2">Headquarters</p>

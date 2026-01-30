@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Footer() {
   return (
-    <footer className="bg-brand-dark text-gray-400 py-12">
+    <footer className="bg-text-primary text-text-muted py-12">
       <div className="container mx-auto px-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Company Info */}
@@ -13,36 +13,36 @@ export function Footer() {
             <p className="text-xs text-gray-300">
               Linking Trust. Creating Value.
             </p>
-            <p className="text-xs text-gray-500">
+            <p className="text-xs text-text-secondary">
               Schaffhausen, Switzerland · Est. 2019
             </p>
           </div>
 
-          {/* Company Links */}
+          {/* Quick Links */}
           <div className="flex flex-col gap-2">
-            <h4 className="text-xs font-semibold text-white">Company</h4>
-            <Link href="/who-we-are" className="text-xs hover:text-white transition-colors">
-              Who We Are
+            <h4 className="text-xs font-semibold text-white">Quick Links</h4>
+            <Link href="/" className="text-xs hover:text-white transition-colors">
+              Home
             </Link>
-            <Link href="/brands" className="text-xs hover:text-white transition-colors">
-              Brands
+            <Link href="/who-we-are" className="text-xs hover:text-white transition-colors">
+              About Us
             </Link>
             <Link href="/capabilities" className="text-xs hover:text-white transition-colors">
-              Capabilities
+              Solutions
+            </Link>
+            <Link href="/brands" className="text-xs hover:text-white transition-colors">
+              Brands & Products
             </Link>
           </div>
 
-          {/* Products Links */}
+          {/* More Links */}
           <div className="flex flex-col gap-2">
-            <h4 className="text-xs font-semibold text-white">Products</h4>
-            <Link href="/products" className="text-xs hover:text-white transition-colors">
-              Organic Ingredients
+            <h4 className="text-xs font-semibold text-white">Explore</h4>
+            <Link href="/markets" className="text-xs hover:text-white transition-colors">
+              Markets
             </Link>
-            <Link href="/products" className="text-xs hover:text-white transition-colors">
-              Whey Proteins
-            </Link>
-            <Link href="/products" className="text-xs hover:text-white transition-colors">
-              Custom Solutions
+            <Link href="/contact" className="text-xs hover:text-white transition-colors">
+              Contact Us
             </Link>
           </div>
 
@@ -58,11 +58,11 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-gray-600">
+        <div className="border-t border-gray-800 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-xs text-text-secondary">
             © 2019-2025 Advance Ingredients AG. All rights reserved.
           </p>
-          <a href="mailto:info@advance-ingredients.ch" className="text-xs text-gray-500 hover:text-gray-400 transition-colors">
+          <a href="mailto:info@advance-ingredients.ch" className="text-xs hover:text-text-muted transition-colors">
             info@advance-ingredients.ch
           </a>
         </div>

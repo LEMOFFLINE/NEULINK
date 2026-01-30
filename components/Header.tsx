@@ -5,18 +5,19 @@ import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 
 const navigation = [
-  { name: 'Who We Are', href: '/who-we-are' },
-  { name: 'Brands', href: '/brands' },
-  { name: 'Products', href: '/products' },
-  { name: 'Capabilities', href: '/capabilities' },
+  { name: 'Home', href: '/' },
+  { name: 'About Us', href: '/who-we-are' },
+  { name: 'Solutions', href: '/capabilities' },
+  { name: 'Brands & Products', href: '/brands' },
   { name: 'Markets', href: '/markets' },
+  { name: 'Contact Us', href: '/contact' },
 ]
 
 export function Header() {
   const pathname = usePathname()
 
   return (
-    <header className="border-b border-gray-200 bg-white h-24">
+    <header className="border-b border-gray-100 bg-bg-primary h-24 shadow-sm">
       <div className="container mx-auto px-16 h-full flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img
@@ -34,8 +35,8 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "text-base transition-colors hover:text-brand-red",
-                  isActive ? "text-brand-red font-medium" : "text-gray-900"
+                  "text-base transition-colors hover:text-primary",
+                  isActive ? "text-primary font-medium" : "text-text-primary"
                 )}
               >
                 {item.name}
@@ -46,7 +47,7 @@ export function Header() {
 
         <Link
           href="/contact"
-          className="bg-brand-red text-white px-9 py-4 rounded text-base font-semibold hover:bg-brand-redDark transition-colors"
+          className="bg-primary text-white px-9 py-4 rounded text-base font-semibold hover:bg-primary-hover transition-all shadow-md hover:shadow-lg"
         >
           Contact
         </Link>

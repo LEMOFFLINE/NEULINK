@@ -35,18 +35,18 @@ export default function ContactPage() {
       <Header />
       <section className="py-32 px-16">
         <div className="container mx-auto max-w-6xl">
-          <h1 className="text-6xl font-bold text-gray-900 mb-8">Contact Us</h1>
-          <p className="text-xl text-gray-600 mb-16">
+          <h1 className="text-6xl font-bold text-text-primary mb-8">Contact Us</h1>
+          <p className="text-xl text-text-secondary mb-16">
             Get in touch with our team to discuss your ingredient requirements
           </p>
 
           <div className="grid md:grid-cols-2 gap-16">
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Send Us a Message</h2>
+              <h2 className="text-3xl font-bold text-text-primary mb-8">Send Us a Message</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="name" className="block text-sm font-semibold text-text-primary mb-2">
                     Name *
                   </label>
                   <input
@@ -61,7 +61,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="company" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="company" className="block text-sm font-semibold text-text-primary mb-2">
                     Company *
                   </label>
                   <input
@@ -76,7 +76,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="email" className="block text-sm font-semibold text-text-primary mb-2">
                     Email *
                   </label>
                   <input
@@ -91,7 +91,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="country" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="country" className="block text-sm font-semibold text-text-primary mb-2">
                     Country/Region *
                   </label>
                   <input
@@ -106,7 +106,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="brand" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="brand" className="block text-sm font-semibold text-text-primary mb-2">
                     Interested Brand
                   </label>
                   <select
@@ -125,7 +125,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="product" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="product" className="block text-sm font-semibold text-text-primary mb-2">
                     Product/Requirement *
                   </label>
                   <input
@@ -140,7 +140,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="volume" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="volume" className="block text-sm font-semibold text-text-primary mb-2">
                     Volume/Timeline (optional)
                   </label>
                   <input
@@ -155,7 +155,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-semibold text-gray-900 mb-2">
+                  <label htmlFor="message" className="block text-sm font-semibold text-text-primary mb-2">
                     Message *
                   </label>
                   <textarea
@@ -171,7 +171,7 @@ export default function ContactPage() {
 
                 <button
                   type="submit"
-                  className="w-full bg-brand-red text-white py-4 rounded-lg text-lg font-semibold hover:bg-brand-redDark transition-colors"
+                  className="w-full bg-primary text-white py-4 rounded-lg text-lg font-semibold hover:bg-primaryDark transition-colors"
                 >
                   Send Message
                 </button>
@@ -180,22 +180,22 @@ export default function ContactPage() {
 
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Contact Information</h2>
+              <h2 className="text-3xl font-bold text-text-primary mb-8">Contact Information</h2>
 
               <div className="bg-[#F8F8F8] p-8 rounded-lg mb-8">
-                <h3 className="text-xl font-bold text-gray-900 mb-6">Company Information</h3>
+                <h3 className="text-xl font-bold text-text-primary mb-6">Company Information</h3>
                 <div className="space-y-4">
                   <div>
                     <p className="text-sm text-gray-500 mb-1">Company</p>
-                    <p className="text-lg text-gray-900">Advance Ingredients AG</p>
+                    <p className="text-lg text-text-primary">Advance Ingredients AG</p>
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 mb-1">Headquarters</p>
-                    <p className="text-lg text-gray-900">Schaffhausen, Switzerland</p>
+                    <p className="text-lg text-text-primary">Schaffhausen, Switzerland</p>
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 mb-1">Email</p>
-                    <a href="mailto:info@advance-ingredients.ch" className="text-lg text-brand-red hover:underline">
+                    <a href="mailto:info@advance-ingredients.ch" className="text-lg text-primary hover:underline">
                       info@advance-ingredients.ch
                     </a>
                   </div>
@@ -203,35 +203,35 @@ export default function ContactPage() {
               </div>
 
               <div className="space-y-6">
-                <h3 className="text-xl font-bold text-gray-900">Our Brands</h3>
+                <h3 className="text-xl font-bold text-text-primary">Our Brands</h3>
                 <div className="space-y-4">
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-brand-red"></div>
+                    <div className="w-12 h-12 rounded-full bg-primary"></div>
                     <div>
-                      <p className="font-bold text-gray-900">NEULINK</p>
-                      <p className="text-sm text-gray-600">Custom Solutions</p>
+                      <p className="font-bold text-text-primary">NEULINK</p>
+                      <p className="text-sm text-text-secondary">Custom Solutions</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-brand-green"></div>
                     <div>
-                      <p className="font-bold text-gray-900">FOONEXUS</p>
-                      <p className="text-sm text-gray-600">Organic Ingredients</p>
+                      <p className="font-bold text-text-primary">FOONEXUS</p>
+                      <p className="text-sm text-text-secondary">Organic Ingredients</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-brand-blue"></div>
                     <div>
-                      <p className="font-bold text-gray-900">LVEO</p>
-                      <p className="text-sm text-gray-600">Whey Proteins</p>
+                      <p className="font-bold text-text-primary">LVEO</p>
+                      <p className="text-sm text-text-secondary">Whey Proteins</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className="mt-8 p-6 bg-brand-peach/30 rounded-lg">
-                <h3 className="font-bold text-gray-900 mb-2">Business Hours</h3>
-                <p className="text-gray-600">
+                <h3 className="font-bold text-text-primary mb-2">Business Hours</h3>
+                <p className="text-text-secondary">
                   Monday - Friday: 9:00 AM - 6:00 PM (CET)<br />
                   Response time: Within 24 hours
                 </p>
