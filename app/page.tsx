@@ -35,11 +35,11 @@ export default function HomePage() {
           </h1>
 
           {/* Subtitle - Emphasizing Switzerland and Quality Control */}
-          <p className="text-xl md:text-2xl text-white/90 mb-6 max-w-3xl leading-relaxed font-light">
+          <p className="text-xl md:text-2xl text-white/90 mb-6 max-w-3xl leading-relaxed font-light text-justify">
             Swiss Quality · Rigorous Quality Control · Dairy Ingredient Expert
           </p>
 
-          <p className="text-lg text-white/75 mb-12 max-w-2xl leading-relaxed">
+          <p className="text-lg text-white/75 mb-12 max-w-2xl leading-relaxed text-justify">
             Providing international R&D-supported dairy ingredient solutions for infant formula, medical nutrition, and sports nutrition
           </p>
 
@@ -76,7 +76,7 @@ export default function HomePage() {
           <h2 className="text-4xl font-bold text-text-primary mb-6">
             Swiss Company · Established in 2019
           </h2>
-          <p className="text-xl text-text-secondary leading-relaxed max-w-3xl mx-auto">
+          <p className="text-xl text-text-secondary leading-relaxed max-w-3xl mx-auto text-justify">
             Advance Ingredients AG is headquartered in Schaffhausen, Switzerland, specializing in dairy ingredient solutions for infant formula, medical nutrition, and sports nutrition industries, serving markets across China and Southeast Asia.
           </p>
         </div>
@@ -183,8 +183,8 @@ export default function HomePage() {
               href="/brands"
               className="group relative bg-gradient-to-br from-green-50 to-white rounded-2xl p-10 border-2 border-green-100 hover:border-green-400 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
-              <div className="absolute top-6 right-6 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                <span className="text-2xl font-bold text-white">F</span>
+              <div className="absolute top-6 right-6 w-16 h-16 bg-white rounded-lg flex items-center justify-center p-2 group-hover:scale-110 transition-transform shadow-md">
+                <img src="/FOONEXUS-logo.png" alt="FOONEXUS" className="w-full h-full object-contain" />
               </div>
 
               <div className="mb-6">
@@ -196,7 +196,7 @@ export default function HomePage() {
               <h3 className="text-3xl font-bold text-text-primary mb-4">FOONEXUS</h3>
               <p className="text-green-700 font-semibold mb-6">Organic Ingredients Expert</p>
 
-              <p className="text-text-secondary leading-relaxed mb-8">
+              <p className="text-text-secondary leading-relaxed mb-4 text-justify">
                 Specialized in certified organic dairy ingredients, serving infant nutrition and health food markets
               </p>
 
@@ -227,8 +227,8 @@ export default function HomePage() {
               href="/brands"
               className="group relative bg-gradient-to-br from-blue-50 to-white rounded-2xl p-10 border-2 border-blue-100 hover:border-blue-400 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
-              <div className="absolute top-6 right-6 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                <span className="text-2xl font-bold text-white">L</span>
+              <div className="absolute top-6 right-6 w-16 h-16 bg-white rounded-lg flex items-center justify-center p-2 group-hover:scale-110 transition-transform shadow-md">
+                <img src="/LVEO-logo.jpg" alt="LVEO" className="w-full h-full object-contain" />
               </div>
 
               <div className="mb-6">
@@ -240,7 +240,7 @@ export default function HomePage() {
               <h3 className="text-3xl font-bold text-text-primary mb-4">LVEO</h3>
               <p className="text-blue-700 font-semibold mb-6">Protein Innovation Expert</p>
 
-              <p className="text-text-secondary leading-relaxed mb-8">
+              <p className="text-text-secondary leading-relaxed mb-4 text-justify">
                 Premium whey protein products with leading influence in China's protein market
               </p>
 
@@ -271,8 +271,8 @@ export default function HomePage() {
               href="/brands"
               className="group relative bg-gradient-to-br from-red-50 to-bg-primary rounded-2xl p-10 border-2 border-red-100 hover:border-primary hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
-              <div className="absolute top-6 right-6 w-16 h-16 bg-primary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                <span className="text-2xl font-bold text-white">N</span>
+              <div className="absolute top-6 right-6 w-16 h-16 bg-white rounded-lg flex items-center justify-center p-2 group-hover:scale-110 transition-transform shadow-md">
+                <img src="/NEULINK-logo.png" alt="NEULINK" className="w-full h-full object-contain" />
               </div>
 
               <div className="mb-6">
@@ -284,7 +284,7 @@ export default function HomePage() {
               <h3 className="text-3xl font-bold text-text-primary mb-4">NEULINK</h3>
               <p className="text-primary font-semibold mb-6">Custom Solutions</p>
 
-              <p className="text-text-secondary leading-relaxed mb-8">
+              <p className="text-text-secondary leading-relaxed mb-4 text-justify">
                 Creating efficient value-added solutions through trust based on transparency principles
               </p>
 
@@ -339,7 +339,7 @@ export default function HomePage() {
 
               <div className="pt-8">
                 <h3 className="text-2xl font-bold text-text-primary mb-4">Honest Communication</h3>
-                <p className="text-text-secondary leading-relaxed mb-6">
+                <p className="text-text-secondary leading-relaxed mb-4 text-justify">
                   No exaggeration or hiding. We provide clear, verifiable information, including origin, specifications, delivery cycles, and product limitations.
                 </p>
                 <div className="flex items-center gap-2 text-sm text-primary font-semibold">
@@ -361,7 +361,7 @@ export default function HomePage() {
 
               <div className="pt-8">
                 <h3 className="text-2xl font-bold text-text-primary mb-4">Transparent Collaboration</h3>
-                <p className="text-text-secondary leading-relaxed mb-6">
+                <p className="text-text-secondary leading-relaxed mb-4 text-justify">
                   Proactively reducing information asymmetry to enable informed decision-making, lower transaction costs, and improve collaboration efficiency.
                 </p>
                 <div className="flex items-center gap-2 text-sm text-primary font-semibold">
@@ -384,7 +384,7 @@ export default function HomePage() {
 
               <div className="pt-8">
                 <h3 className="text-2xl font-bold text-text-primary mb-4">Consistent Delivery</h3>
-                <p className="text-text-secondary leading-relaxed mb-6">
+                <p className="text-text-secondary leading-relaxed mb-4 text-justify">
                   Backed by international R&D expert collaboration, supply chain management, and quality control, we pursue stable delivery and consistent quality.
                 </p>
                 <div className="flex items-center gap-2 text-sm text-primary font-semibold">

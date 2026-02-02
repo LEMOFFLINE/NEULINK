@@ -19,7 +19,7 @@ export default function WhoWeArePage() {
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
             About Us
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed text-justify">
             Swiss Quality · Integrity & Transparency · Professional Excellence
           </p>
         </div>
@@ -34,16 +34,16 @@ export default function WhoWeArePage() {
           <div className="space-y-16">
             <section>
               <h2 className="text-3xl font-bold text-text-primary mb-6">Our Story</h2>
-              <p className="text-lg text-text-primary leading-relaxed mb-4">
+              <p className="text-lg text-text-primary leading-relaxed mb-4 text-justify">
                 Advance Ingredients AG is a Swiss company headquartered in Schaffhausen, founded in 2019.
               </p>
-              <p className="text-lg text-text-primary leading-relaxed mb-4">
+              <p className="text-lg text-text-primary leading-relaxed mb-4 text-justify">
                 We specialize in dairy ingredient solutions, serving the infant formula, medical nutrition, and sports nutrition industries across China and Southeast Asia.
               </p>
-              <p className="text-lg text-text-primary leading-relaxed">
+              <p className="text-lg text-text-primary leading-relaxed text-justify">
                 Our mission is to bridge the gap between premium dairy ingredient producers and the dynamic Asian market. Through our brands NEULINK, FOONEXUS, and LVEO, we deliver organic ingredients, whey proteins, and customized solutions.
               </p>
-              <p className="text-lg text-text-primary leading-relaxed">
+              <p className="text-lg text-text-primary leading-relaxed text-justify">
                 We believe that trust is not a slogan—it's the result of consistent delivery over time. Our approach is built on reducing information asymmetry and creating transparent, efficient partnerships.
               </p>
             </section>

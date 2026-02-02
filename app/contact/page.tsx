@@ -206,21 +206,21 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-text-primary">Our Brands</h3>
                 <div className="space-y-4">
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-primary"></div>
+                    <img src="/NEULINK-logo.png" alt="NEULINK" className="w-12 h-12 object-contain" />
                     <div>
                       <p className="font-bold text-text-primary">NEULINK</p>
                       <p className="text-sm text-text-secondary">Custom Solutions</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-brand-green"></div>
+                    <img src="/FOONEXUS-logo.png" alt="FOONEXUS" className="w-12 h-12 object-contain" />
                     <div>
                       <p className="font-bold text-text-primary">FOONEXUS</p>
                       <p className="text-sm text-text-secondary">Organic Ingredients</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-brand-blue"></div>
+                    <img src="/LVEO-logo.jpg" alt="LVEO" className="w-12 h-12 object-contain" />
                     <div>
                       <p className="font-bold text-text-primary">LVEO</p>
                       <p className="text-sm text-text-secondary">Whey Proteins</p>

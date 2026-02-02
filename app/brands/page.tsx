@@ -19,7 +19,7 @@ export default function BrandsPage() {
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
             Brands & Products
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed text-justify">
             Three Brands · Comprehensive Solutions
           </p>
         </div>
@@ -39,19 +39,17 @@ export default function BrandsPage() {
         <div className="container mx-auto max-w-6xl">
           <div className="flex gap-8 mb-8">
             <div className="w-32">
-              <div className="bg-primary py-3 px-6 rounded text-center">
-                <span className="text-lg font-bold text-white">NEULINK</span>
-              </div>
+              <img src="/NEULINK-logo.png" alt="NEULINK" className="w-full h-auto object-contain" />
             </div>
             <h2 className="text-5xl font-bold text-text-primary">Trusted Connections</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <p className="text-lg text-text-primary leading-relaxed mb-6">
+              <p className="text-lg text-text-primary leading-relaxed mb-4 text-justify">
                 Our proprietary ingredient brand built on the principle of reducing information asymmetry.
                 NEULINK embodies our core philosophy: Linking Trust. Creating Value.
               </p>
-              <p className="text-lg text-text-primary leading-relaxed">
+              <p className="text-lg text-text-primary leading-relaxed text-justify">
                 Through transparent connections and honest communication, we create efficient, value-added
                 solutions tailored to our customers' specific needs.
               </p>
@@ -82,19 +80,17 @@ export default function BrandsPage() {
         <div className="container mx-auto max-w-6xl">
           <div className="flex gap-8 mb-8">
             <div className="w-32">
-              <div className="bg-brand-green py-3 px-6 rounded text-center">
-                <span className="text-lg font-bold text-white">FOONEXUS</span>
-              </div>
+              <img src="/FOONEXUS-logo.png" alt="FOONEXUS" className="w-full h-auto object-contain" />
             </div>
             <h2 className="text-5xl font-bold text-text-primary">Organic Excellence</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <p className="text-lg text-text-primary leading-relaxed mb-6">
+              <p className="text-lg text-text-primary leading-relaxed mb-4 text-justify">
                 Our specialized organic product line serving the growing demand for certified organic ingredients
                 in infant nutrition and health products.
               </p>
-              <p className="text-lg text-text-primary leading-relaxed">
+              <p className="text-lg text-text-primary leading-relaxed text-justify">
                 FOONEXUS represents our commitment to sustainable, traceable organic ingredients. Every product
                 maintains full certification and meets the strictest organic standards.
               </p>
@@ -129,19 +125,17 @@ export default function BrandsPage() {
         <div className="container mx-auto max-w-6xl">
           <div className="flex gap-8 mb-8">
             <div className="w-32">
-              <div className="bg-brand-blue py-3 px-6 rounded text-center">
-                <span className="text-lg font-bold text-white">LVEO</span>
-              </div>
+              <img src="/LVEO-logo.jpg" alt="LVEO" className="w-full h-auto object-contain" />
             </div>
             <h2 className="text-5xl font-bold text-text-primary">Protein Innovation</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <p className="text-lg text-text-primary leading-relaxed mb-6">
+              <p className="text-lg text-text-primary leading-relaxed mb-4 text-justify">
                 Premium whey protein line with leading market influence in China's protein sector.
                 LVEO delivers high-quality ingredients for performance and recovery nutrition.
               </p>
-              <p className="text-lg text-text-primary leading-relaxed">
+              <p className="text-lg text-text-primary leading-relaxed text-justify">
                 Our whey proteins are sourced from premium suppliers and processed to maintain optimal
                 nutritional value and functional properties. LVEO serves sports nutrition, clinical nutrition, and specialized formula markets.
               </p>

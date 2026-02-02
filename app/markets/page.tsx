@@ -19,7 +19,7 @@ export default function MarketsPage() {
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
             Market Coverage
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed text-justify">
             Serving China and Southeast Asia Markets
           </p>
         </div>
